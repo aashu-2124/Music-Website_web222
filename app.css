@@ -1,0 +1,156 @@
+body 
+{
+  background-image: url('Grey background 2.jpg');
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: Arial, sans-serif;
+  text-shadow: 2px 2px 4px rgba(186, 171, 171, 0.5);
+  margin: 0;
+  padding: 0;
+}
+header 
+{
+  background: #05000b;
+  color: #e4f1f0;
+  text-shadow: 5px 5px 6px rgba(164, 159, 159, 0.5);
+  text-align: center;
+  padding: 40px;
+}
+h1 
+{
+  margin: 0;
+}
+nav 
+{
+  display: flex;
+  justify-content: center;
+  background-color: #d3c4c4;
+  padding: 10px;
+}
+a 
+{
+  text-decoration: none;
+  color: #ede7f1;
+  margin: 0 10px;
+}
+a:hover 
+{
+  color: #d6d8d2;
+}
+#song-cards
+ {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.song-card
+{
+  background-color: rgb(163, 174, 157);
+  box-shadow: -2px -2px 7px 2px rgba(153, 154, 148, 0.8), 5px 5px 15px 7px; 
+  padding: 20px;
+  border-radius: 15px;
+  width: 250px;
+}
+.song-card img 
+{
+  max-width: 100%;
+  border-radius: 5px; 
+}
+#selected-artist
+{
+  text-align: center;
+  margin: 20px 0;
+}
+#selected-artist h2 
+{
+  margin: 0;
+}
+#selected-artist p 
+{
+  margin-top: 5px;
+}
+
+.links-container
+{
+  font-size: 14px; 
+}
+
+.links-container a 
+{
+  margin-right: 5px;
+}
+@media screen and (max-width: 600px) {
+  #song-cards {
+    justify-content: center;
+  }
+}
+#menu {
+  display: flex;
+  justify-content: center;
+  background-color: #100f0f;
+  padding: 10px;
+}
+#menu span {
+  margin-right: 10px;
+}
+
+#menu span 
+{
+  margin-right: 10px;
+  color: #a098a3;
+  font-weight: bold;
+}
+#menu span:hover {
+  color: #e1c9ea;
+  cursor: pointer;
+}
+.song-card:hover {
+  transform: scale(1.07); 
+  cursor: pointer;
+}
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+body 
+{
+font-family: 'Garamond', cursive;
+}
+h1, p
+{
+font-family: 'Garamond', cursive;
+}
+.hidden 
+{
+  display: none;
+}
+#edit-song-form h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+#edit-song-form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+#edit-song-form input[type="text"] {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+#edit-song-form button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#edit-song-form button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
